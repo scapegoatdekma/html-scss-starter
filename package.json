@@ -1,0 +1,17 @@
+{
+  "name": "futuretech",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-watch": "sass --watch ." // для сборки css из scss пишем команду npm run sass-watch
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.86.3"
+  }
+}
