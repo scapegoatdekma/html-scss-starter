@@ -1,0 +1,19 @@
+@use "../helpers" as *;
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .h2 {
+  }
+  .title {
+  }
+  .subtitle {
+    text-align: center;
+    @include fluid-text(
+      24,
+      14
+    ); // размер шрифта от 24 до 14 пикселей в зависимости от ширины экрана
+  }
+}
